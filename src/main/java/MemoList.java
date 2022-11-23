@@ -31,7 +31,7 @@ public class MemoList {
                     Scanner scanpw = new Scanner(System.in);
                     password = scanpw.nextInt();
 
-                    if (password == 0/*메모리스트 인덱스번호의 패스워드*/){
+                    if (password == 00/*메모리스트 인덱스번호의 패스워드*/){
                         memoList.remove(listindex);
                     }else{
                         System.out.println("패스워드를 재확인 해주세요.");
